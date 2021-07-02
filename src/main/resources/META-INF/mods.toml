@@ -1,0 +1,32 @@
+	modLoader="javafml" 
+	loaderVersion="[36,)"
+	license="MIT License"
+
+
+
+[[mods]] 
+
+	modId="modidea" 
+	version="${file.jarVersion}" 
+	displayName="Mod Idea" 
+	logoFile="logo.png" 
+	credits=""
+	authors="SJKZ1" 
+	description=''''''
+
+
+
+[[dependencies.modidea]] 
+
+		modId="forge" 
+		mandatory=true 
+		versionRange="[36.1.32,)" 
+		ordering="NONE"
+		side="BOTH"
+		
+[[dependencies.modidea]]
+		modId="minecraft"
+		mandatory=true
+		versionRange="[1.16.5]"
+		ordering="NONE"
+		side="BOTH"
